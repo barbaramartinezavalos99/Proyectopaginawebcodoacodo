@@ -1,1 +1,103 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//Proyecto Blosson/css/style.css">
+    <title> Formularios </title>
+</head>
+<body class="body1">
+    <div class="icono-menu">
+        <img src="images/open-menu.webp" id="icono-menu" width="100" height="100">
+    </div>
+    <div class="cont-menu active" id="menu">
+        <ul>
+            <li> Home </li>
+            <li> Productos </li>
+            <li> Promociones </li>
+            <li> Contacto </li>
+            <li> Tiendas </li>
+        </ul>
+    </div>
+    <script src="app.js" ></script>
+    <fieldset> 
+    <legend><p class="p1"> Formulario de registro </p></legend> 
+    <br>
+    <form action="show_data.html" target="_blank">
+        <label for="firstname"> Nombre: </label>
+        <input size="30" type="text" name="firstname"> 
+        <br><br>
+        <label for="lastname"> Apellido: </label>
+        <input size="30" type="text" name="lastname"> 
+        <br><br>
+        <label for="celular"> Celular: </label>
+        <input type="celular" name="celular"> 
+        <br><br>
+        <label for="street"> Direccion: </label>
+        <input type="text" name="address"> 
+        <br><br>
+        <label for="city"> Ciudad: </label>
+        <input type="text" name="city"> 
+        <br><br>
+        <label for="zipcode"> Código Postal: </label>
+        <input type="text" name="zipcode"> 
+        <br><br>
+        <label for="BirthDate"> Fecha de Nacimiento (mm/dd/yyyy): </label> 
+        <input type="date" name="birthdate"> 
+        <br><br>
+        <label for="mail"> Mail: </label>
+        <input type="email" name="mail"> 
+        <br><br>
+        <label for="clave"> Clave: </label>
+        <input type="password" name="clave"> 
+        <br><br>
+        <p> Género 
+            <input type="radio" name="gender" value="hombre" checked> Hombre
+            <input type="radio" name="gender" value="Mujer"> Mujer
+            <input type="radio" name="gender" value="Otro"> Otro
+        </p>
+        <br>
+    </fieldset>
+    <br>
+        <p><strong> ¿Qué sabores te gustaron más? </strong> 
+            <br>
+            <input type="checkbox" name="conocimientos" value="Pure Blossom"> Pure Blossom  
+            <br>
+            <input type="checkbox" name="conocimientos" value="Blanca Blossom"> Blanca Blossom
+            <br> 
+            <input type="checkbox" name="conocimientos" value="Vanilla African"> Vanilla African
+            <br>
+            <input type="checkbox" name="conocimientos" value="Sweet Roiboos"> Sweet Roiboos
+            <br>
+            <input type="checkbox" name="conocimientos" value="Mistery Oolong"> Mistery Oolong
+            <br> 
+            <input type="checkbox" name="conocimientos" value="Magic Amazon"> Magic Amazon
+            <br>
+            <input type="checkbox" name="conocimientos" value="Blossom Rosé"> Blossom Rosé
+            <br>
+            <input type="checkbox" name="conocimientos" value="Secret Chai"> Secret Chai
+            <br>
+            <input type="checkbox" name="conocimientos" value="Oriental Blossom"> Oriental Blossom 
+        </p>
+        <br><br>
+        <label for="promociones"><strong> ¿Dónde querés recibir nuestros avisos de promociones? </strong></label>
+        <select id="promociones" name="promociones" class="op">
+            <option value="Mail"> Mail </option>
+            <option value="Instagram"> Instagram </option>
+            <option value="Facebook"> Facebook </option>
+            <option value="Otro"> Otro </option>
+        </select>
+        <br><br>
+        <label for="comentarios"> Comentarios: </label> 
+        <br>
+        <textarea name="comentarios" rows="10" cols="50"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar" class="enviar">
+        <button type="reset" class="reset"> Reset </button>
+    </form>
+</body>
+<br><br>
+<footer class="footerc">
+</footer>
+</html>
