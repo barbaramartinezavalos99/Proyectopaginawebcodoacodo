@@ -1,1 +1,228 @@
+/* Parte de Alcira desde --> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    background-color: darksalmon;
+    color: white;
+}
 
+/* Estilos para el ícono del Menú */
+
+.icon-menu{
+    position: relative;
+    z-index: 10;
+}
+
+icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Estilos para el contendor del menu*/
+.cont-menu{
+    background-color: rgb(42, 42, 42);
+    box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+/* Esilos para agrgar en JavaScript */
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: rgb(0,0,0,0,5);
+    transition: all .5s ease;
+}
+
+/* Estilos para el listado del menu*/
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,229);
+    color: rgb(42, 42, 42);
+
+}
+
+.icono-menu{
+    background-image: url(..//images/f3.jpg);
+    text-align: right;
+}
+
+.body1{
+    background-color: rgb(147, 185, 142);
+    color: white;
+}
+.p1{
+    background-color: rgb(219, 210, 161);
+    font-size: 30px;
+    margin-top: 10;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+option{
+    color: black;
+}
+
+.enviar{
+    background-color: rgb(219, 210, 161); 
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+    border-color: white;
+    border-width: 5px;
+}
+
+.reset{
+    background-color: rgb(219, 210, 161);
+    color: black;
+    padding: 10px;
+    border-radius: 10%;
+    border-color: white;
+    border-width: 5px;
+}
+
+.header{
+    background-image: url(..//images/f3.jpg);
+    max-height: 400px;
+}
+
+.logo{
+    width: 200px; 
+    height: 200px;
+    text-align: left;
+    border-radius: 20%;
+    margin: 20px;
+    border-color: rgb(147, 185, 142);
+    border-width: 10px;
+    border-style: solid;
+}
+
+.barra{
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Home{
+    background-color: rgb(219, 210, 161);
+    color: white;
+    font-size: 30px;
+    border-bottom: 10px;
+    border-radius: 10px;
+    border-left-width: 5%;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Contacto{
+    background-color: rgb(219, 210, 161);
+    color: white;
+    font-size: 30px;
+    border-bottom: 10px;
+    border-radius: 10px;
+    border-left-width: 5%;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.animate__heartBeat{
+    text-align: center;
+    background-color: rgb(147, 185, 142);
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.animate__hinge{
+    display: inline-flexbox;
+    width: 150px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 20px;
+    text-decoration:underline;
+}
+
+.tenor-gif-embed{
+    float: right;
+    width: 20%;
+    height: auto;
+}
+
+.intro{
+    text-decoration: none;
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(219, 210, 161);
+    padding: 10px;
+}
+
+ul, ol, li{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+i{
+    color: white;
+    background-color: rgb(147, 185, 142);
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+footer{
+    background-image: url(../images/f3.jpg);
+    min-width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerc{
+    padding: 100px;
+    margin-top: 10px;
+}
+
+/* --> hasta aquí*/
