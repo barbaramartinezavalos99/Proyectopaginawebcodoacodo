@@ -227,6 +227,10 @@ footer{
     text-align: center;
 }
 
+.if{
+    border-radius: 5%;
+}
+
 .footerc{
     padding: 100px;
     margin-top: 10px;
