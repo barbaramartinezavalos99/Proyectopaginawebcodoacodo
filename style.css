@@ -1,76 +1,10 @@
-/* Parte de Alcira desde --> */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Handlee', cursive;
+    font-family: 'Ms Madi', cursive;
     font-size: 20px;
-    background-color: darksalmon;
-    color: white;
-}
-
-/* Estilos para el ícono del Menú */
-
-.icon-menu{
-    position: relative;
-    z-index: 10;
-}
-
-.menu-hamburg{
-    vertical-align: top;
-    cursor: pointer;
-    border-radius: 50%;
-    
-}
-
-icono-menu img{
-    vertical-align: top;
-    width: 40px;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-/* Estilos para el contendor del menu*/
-.cont-menu{
-    background-color: rgb(42, 42, 42);
-    box-shadow: 2px 0px 5px 2px rgb(66, 66, 66);
-    width: 400px;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all .5s ease;
-}
-
-/* Esilos para agrgar en JavaScript */
-.active{
-    transform: translate(-600px);
-}
-
-.opacity{
-    background-color: rgb(0,0,0,0,5);
-    transition: all .5s ease;
-}
-
-/* Estilos para el listado del menu*/
-.cont-menu ul{
-    padding: 100px 0px 20px 0px;
-    list-style: none;
-}
-
-.cont-menu ul li{
-    color: white;
-    display: block;
-    font-size: 25px;
-    text-decoration: none;
-    padding: 10px 50px;
-    cursor: pointer;
-}
-
-.cont-menu ul li:hover{
-    background-color: rgb(228,228,229);
-    color: rgb(42, 42, 42);
-
+    color: rgb(83, 45, 114);
 }
 
 .icono-menu{
@@ -79,18 +13,20 @@ icono-menu img{
 }
 
 .body1{
-    background-color: rgb(147, 185, 142);
-    color: white;
+    color: rgb(83, 45, 114);
+    font-size: 40px;
+    font-weight: bold;
 }
+
 .p1{
     background-color: rgb(219, 210, 161);
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10;
     margin-bottom: 10px;
     margin-left: 50px;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    font-size: 30px;
+    font-weight: bold;
 }
 
 option{
@@ -116,68 +52,65 @@ option{
 }
 
 .header{
-    background-image: url(..//images/f3.jpg);
-    max-height: 400px;
+    background-image: url(../images/otro\ fondo.jpg);
+    max-height: 200px;
+    border-bottom: thistle 10px solid;
+}
+
+.header2{
+    background-image: url(../images/f1.jpg);
+    max-height: 200px;
+    border-bottom: thistle 10px solid;
 }
 
 .logo{
-    width: 200px; 
-    height: 200px;
+    width: 150px; 
+    height: 150px;
     text-align: left;
-    border-radius: 20%;
+    border-radius: 50%;
     margin: 20px;
-    border-color: rgb(147, 185, 142);
-    border-width: 10px;
-    border-style: solid;
-}
-
-.barra{
-    text-align: right;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 10px;
+    border: rgb(83, 45, 114) 10px double;
 }
 
 .Home{
-    background-color: rgb(219, 210, 161);
+    background-color: rgb(83, 45, 114);
     color: white;
     font-size: 30px;
-    border-bottom: 10px;
     border-radius: 10px;
-    border-left-width: 5%;
-    margin: 20px;
     text-decoration: none;
     padding: 10px;
+    border: white 3px solid;
+    text-align: right;
+    margin: 10px;
 }
 
 .Contacto{
-    background-color: rgb(219, 210, 161);
+    background-color: rgb(83, 45, 114);
     color: white;
     font-size: 30px;
-    border-bottom: 10px;
     border-radius: 10px;
-    border-left-width: 5%;
-    margin: 20px;
     text-decoration: none;
     padding: 10px;
+    border: white 3px solid;
+    text-align: right;
+    margin: 10px;
 }
 
 .animate__heartBeat{
-    text-align: center;
-    background-color: rgb(147, 185, 142);
+    text-align: left;
     font-size: 30px;
     padding: 20px;
-    margin-top: 10px;
 }
 
 .animate__hinge{
-    display: inline-flexbox;
     width: 150px;
     height: 50px;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: thistle 3px dotted;
     margin-left: 40px;
-    margin-top: 10px;
     margin-bottom: 10px;
-    padding: 10px;
 }
 
 h1{
@@ -192,22 +125,40 @@ h1{
 .tenor-gif-embed{
     float: right;
     width: 20%;
-    height: auto;
+    height: 20%;
+    position:fixed;
 }
 
 .intro{
-    text-decoration: none;
+    padding: 10px;
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 h2{
-    background-color: rgb(219, 210, 161);
-    padding: 10px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
 }
 
-ul, ol, li{
-    text-decoration: none;
-    margin-left: 20px;
+.h2a{
+    background-color: rgb(83, 45, 114);
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+    overflow: auto;
+    border: thistle 3px dashed;
+
+}
+
+.li{
+    margin: 20px;
+    padding: 20px;
+    font-size: 50px;
 }
 
 i{
@@ -221,18 +172,33 @@ i{
 }
 
 footer{
-    background-image: url(../images/f3.jpg);
+    background-image: url(../images/otro\ fondo.jpg);
     min-width: 500px;
     padding: 20px;
     text-align: center;
+    border-top: thistle 10px solid;
+}
+
+.tiendas{
+    text-align:left;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 40px;
+    padding: 10px;
+    background-color: rgb(219, 210, 161);
+    border-width: 10px;
 }
 
 .if{
     border-radius: 5%;
+    text-align:center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 30px;
 }
 
 .footerc{
+    background-image: url(../images/f1.jpg);
     padding: 100px;
     margin-top: 10px;
 }
-/* --> hasta aquí*/
